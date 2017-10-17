@@ -18,14 +18,16 @@ class Artist
   def self.all
     @@artists
   end
-
+=begin
   def self.reset_all
     self.all.clear
   end
-
+=end
+=begin
   def self.count
     @@artists.count
   end
+=end
 
   def add_song(song)
     @songs << song
